@@ -1,0 +1,121 @@
+.ai {
+    align-items: center;
+}
+.footer-one {
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    background-color: #282828;
+}
+
+/* #c7c7cd #FFA500 */
+
+#social-txt {
+    /* font-weight: bold; */
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.media-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20rem;
+    /* color: #FFA500; */
+    color: white;
+    /* color: rgb(75, 73, 73); */
+}
+
+.media {
+    /* box-shadow: 1px 1px 3px 0px rgb(65, 63, 63); */
+    /* background-color: black; */
+    /* border-radius: 20px; */
+    height: 1.5rem;
+    width: 1.5rem;
+    /* border-width: 3rem; */
+    /* border: 2px solid black; */
+}
+
+.media:hover {
+    cursor: pointer;
+}
+
+.footer-two {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 28%;
+    height: 50vh;
+    /* background-color: rgb(75, 73, 73); */
+    background-color: #323232;
+}
+
+.two-one {
+    display: flex;
+    flex-direction: row;
+    color: rgb(235, 235, 235);
+    justify-content: space-evenly;
+}
+
+.pay {
+    height: 5rem;
+    width: 5rem;
+}
+
+.two-two ul, .two-three ul {
+    list-style: none;
+    margin-left: 30%;
+    padding-top: 1.2rem;
+}
+
+.two-two h3, .two-three h3, .two-four h3 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.two-two ul li a, .two-three ul li a {
+    color: #c7c7cd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.two-two, .two-three {
+    padding-top: 15%;
+}
+
+.two-two ul li, .two-three ul li {
+    margin: 10px;
+}
+
+.two-four {
+    padding-top: 13.5%;
+}
+
+.two-four form {
+    margin-top: 5rem;
+    margin-left: 20%;
+    background-color: #c7c7cd;
+    height: 2.8rem;
+    width: 18rem;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+
+.two-four form input {
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    padding-left: 10px;
+    border: none;
+}
+
+.two-four form button {
+    height: 100%;
+    border: none;
+    background: #FFA500;
+    cursor: pointer;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}

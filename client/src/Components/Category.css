@@ -1,0 +1,30 @@
+.category {
+  margin: 1rem 0 0 1rem;
+  /* border-right: 2px solid black; */
+  height: 88vh;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 0px rgb(189, 189, 189);
+  padding: 5%;
+}
+
+.category li {
+  list-style: none;
+  height: 2rem;
+  width: 90%;
+  padding: 5px 3px 0 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.category li:hover {
+  color: #ffa500;
+  cursor: pointer;
+}
+
+.head {
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  padding: 5px 0 0 30px;
+}

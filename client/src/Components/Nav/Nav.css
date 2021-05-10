@@ -1,0 +1,43 @@
+.dfs {
+  display: flex;
+}
+.sb {
+    justify-content: space-between;
+}
+
+#sbs {
+  justify-content: space-between;
+}
+
+.fw {
+  font-weight: bold;
+}
+
+.nav {
+  
+  padding: 10px 90px 0px 90px;
+  background-color:rgb(75, 73, 73);
+  height: 2.5rem;
+}
+.ct {
+  width: 20%;
+}
+
+.mg {
+    margin-left: 20px;
+}
+.log {
+    width: 10%;
+}
+.log li {
+    list-style: none;
+}
+
+.log li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.re {
+    margin: 10px;
+}

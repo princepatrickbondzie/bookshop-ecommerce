@@ -1,0 +1,6 @@
+.pd {
+    display: grid;
+    grid-template-columns: 49% 49%;
+    justify-content: space-evenly;
+}
+
