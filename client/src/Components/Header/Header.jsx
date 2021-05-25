@@ -64,7 +64,7 @@ const Header = () => {
             </NavLink>
             <div>
               <div className="tt">
-                <p id="txt">Ghc358.00</p>
+                <p id="txt">Ghc00.00</p>
               </div>
             </div>
           </div>

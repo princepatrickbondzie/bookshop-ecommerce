@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useHistory, Link } from "react-router-dom";
 import { useUserState } from "../state/store";
 import "../Components/Login.css";
+import Nav from "../Components/Nav/Nav";
 
 const fetchQuery = async ({ uri, method = "GET", body = null }) => {
   const response = await fetch(uri, {
@@ -42,40 +43,43 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="body">
-      <form action="" onSubmit={handleSubmit} className="form df">
-        <h3>Login</h3>
-        <input
-          className="inp"
-          type="text"
-          placeholder="Email"
-          name="email"
-          id="email"
-          vlaue={state.email}
-          onChange={handleChange}
-        />
-        <input
-          className="inp"
-          type="password"
-          placeholder="Password"
-          name="password"
-          id="password"
-          value={state.password}
-          onChange={handleChange}
-        />
-        <div className="save df sb">
-          <div className="save-one df sb">
-            <input type="checkbox" name="" id="tick" />
-            <h4>Remember Me</h4>
+    <div>
+        <Nav />
+      <div className="body">
+        <form action="" onSubmit={handleSubmit} className="form df">
+          <h3>Login</h3>
+          <input
+            className="inp"
+            type="text"
+            placeholder="Email"
+            name="email"
+            id="email"
+            vlaue={state.email}
+            onChange={handleChange}
+          />
+          <input
+            className="inp"
+            type="password"
+            placeholder="Password"
+            name="password"
+            id="password"
+            value={state.password}
+            onChange={handleChange}
+          />
+          <div className="save df sb">
+            <div className="save-one df sb">
+              <input type="checkbox" name="" id="tick" />
+              <h4>Remember Me</h4>
+            </div>
+            <div className="sec">
+              <Link to="/register">Forgot your Password?</Link>
+            </div>
           </div>
-          <div className="sec">
-            <Link to="/register">Forgot your Password?</Link>
-          </div>
-        </div>
-        <button type="submit" id="bt" className="btn">
-          Login
-        </button>
-      </form>
+          <button type="submit" id="bt" className="btn">
+            Login
+          </button>
+        </form>
+      </div>
     </div>
   );
 };
