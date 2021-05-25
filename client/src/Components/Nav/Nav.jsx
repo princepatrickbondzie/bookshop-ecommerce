@@ -5,7 +5,7 @@ import { NavLink, Link } from "react-router-dom";
 import { FiPhoneCall } from "react-icons/fi";
 import { AiOutlineMail } from "react-icons/ai";
 
-const Nav = () => {
+const Nav = (props) => {
   const isLoggedIn = useUserState((state) => state.isLoggedIn);
   const logout = useUserState((state) => state.logOut);
   const user = useUserState((state) => state.user);
@@ -28,7 +28,7 @@ const Nav = () => {
       <div className="gitin">
         {isLoggedIn ? (
           <div>
-            <Link to="/account" id="us">{user?.firstName}</Link>
+            <Link to="/account">{user?.firstName}</Link>
             <button onClick={() => logout()} id="logout">Logout</button>
           </div>
         ) : (
