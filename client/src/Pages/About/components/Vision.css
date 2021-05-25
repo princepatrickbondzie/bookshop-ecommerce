@@ -1,0 +1,19 @@
+.vision-container {
+    height: 50vh;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px rgb(216, 216, 216);
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    justify-content: space-evenly;
+}
+
+.vc {
+    color: #F68B1E;
+}
+
+#vc-text {
+    color: black;
+    font-size: 18px;
+}

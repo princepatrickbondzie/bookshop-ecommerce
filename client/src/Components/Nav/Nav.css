@@ -1,0 +1,54 @@
+.dfs {
+  display: flex;
+}
+.sb {
+    justify-content: space-between;
+}
+
+#sbs {
+  justify-content: space-between;
+}
+
+.fw {
+  font-weight: bold;
+}
+
+.main-nav-container {
+  padding: 10px 90px 0px 90px;
+  background-color:rgb(75, 73, 73);
+  height: 2.5rem;
+}
+.ct {
+  width: 20%;
+}
+
+.mg {
+    margin-left: 20px;
+}
+.log {
+    width: 10%;
+}
+#reg {
+    list-style: none;
+}
+
+#reg a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.re {
+    margin: 10px;
+}
+#us {
+  color: white;
+}
+
+#logout {
+  background-color: #faa500;
+  color: black;
+  padding: 3px;
+  border-radius: 2px;
+  border-style: none;
+  margin: 3px 0 0 10px;
+}

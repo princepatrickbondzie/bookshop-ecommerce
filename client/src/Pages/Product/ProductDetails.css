@@ -1,0 +1,156 @@
+.main-dtl {
+  display: grid;
+  grid-template-columns: 16% 84%;
+}
+
+#cate {
+  height: 90vh;
+}
+
+#cate-detail {
+  width: 100%;
+}
+
+.detail-options {
+    margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.gd {
+  height: 70vh;
+}
+
+.detail-image {
+  /* padding: 10px; */
+  display: grid;
+  justify-content: center;
+}
+
+#d-img {
+    height: 60vh;
+    width: 20rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px 1px rgb(161, 159, 159);
+}
+
+.detail-container {
+  padding: 5rem 0 0 0rem;
+}
+
+#line {
+  margin-left: 0.2rem;
+  margin-top: 10px;
+}
+
+.descrip {
+  font-size: 16px;
+}
+
+.amt {
+  display: flex;
+}
+
+.bttn {
+  text-align: center;
+  width: 1.4rem;
+  background-color: #faa500;
+  cursor: pointer;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.quty {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+#num {
+  height: 2.2rem;
+  width: 4.3rem;
+  outline: none;
+  border: 1px solid #faa500;
+}
+
+.d-price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+del {
+  margin-left: 13px;
+  color: rgb(75, 73, 73);
+}
+
+#add {
+  height: 2.5rem;
+  width: 13rem;
+  border-radius: 5px;
+  border: 1px solid #faa500;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 16px;
+  color: rgb(75, 73, 73);
+}
+
+#add:hover {
+  background-color: #faa500;
+  color: white;
+}
+
+.crt {
+  margin-left: 3rem;
+}
+
+.bttns {
+  display: flex;
+}
+
+#divider {
+  width: 95%;
+  background-color: #faa500;
+  border: none;
+  height: 1px;
+}
+
+.content {
+  margin: 3rem 3rem 3rem 3rem;
+  font-size: 18px;
+  /* height: 90vh; */
+}
+
+.content h2 {
+  text-align: center;
+  margin: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.similar-products {
+    display: grid;
+    grid-template-rows: 13% 87%;
+    height: 50vh;
+    width: 74rem;
+    margin: 10px 0 3rem 17rem ;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 10px 1px rgb(223, 222, 222);
+}
+
+.similar-one {
+    background-color: #faa500;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0 0 0 2rem;
+}
+
+.similar-one h4 {
+    align-items: center;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: "Courier New", Courier, monospace;
+
+}

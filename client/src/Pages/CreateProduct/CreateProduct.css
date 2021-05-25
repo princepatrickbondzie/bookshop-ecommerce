@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cp {
+    display: grid;
+    justify-content: center;
+}
+
+.form-container {
+    background-color: white;
+    box-shadow: 1px 1px 3px 0px rgb(189, 189, 189);
+    height: 110vh;
+    width: 38rem;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.row {
+    margin: 15px;  
+}
+
+.upload-container {
+    height: 10rem;
+}
+
+.in {
+    height: 2.5rem;
+    width: 35rem;
+    box-shadow: 2px 2px 5px 1px rgb(201, 200, 200);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.num {
+    display: flex;
+    justify-content: center;
+}
+
+#price, #quantity {
+    width: 5rem;
+}
+
+#description {
+    box-shadow: 2px 2px 5px 1px rgb(201, 200, 200);
+    border-style: none;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 2rem;
+    height: 15vh;
+}
+
+ .img {
+    align-items: center;
+    padding-left: 30%;
+    box-shadow: 2px 2px 5px 1px rgb(201, 200, 200);
+    border-radius: 5px;
+    padding-top: 8%;
+}
+
+input[type="file"].in {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+#topic, #education {
+    height: 2rem;
+    width: 10rem;
+    /* background-color: #FFA500; */
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px 1px rgb(201, 200, 200);
+    cursor: pointer;
+}
+
+#bttn {
+    height: 2rem;
+    width: 20rem;
+    margin: 50px 0px 0px 130px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 2px 2px 5px 1px rgb(201, 200, 200);
+    cursor: pointer;
+}
+
+.product-image-display {
+    height: 8rem;
+    width: 35rem;
+    box-shadow: 2px 2px 5px 1px rgb(201, 200, 200);
+    border-radius: 10px;
+    border-style: none;
+}

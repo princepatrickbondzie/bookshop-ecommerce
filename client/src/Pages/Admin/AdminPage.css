@@ -1,0 +1,41 @@
+#dash {
+  background-color: #3a6073;
+  height: 100vh;
+  width: 100%;
+  padding: 2%;
+}
+
+#dash-nav {
+  width: 20rem;
+  background-color: #104352;
+  height: 90vh;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px #28404d;
+}
+
+#dash-nav ul {
+  width: 100%;
+}
+
+#dash-nav ul li {
+  padding-top: 10px;
+  padding-left: 30px;
+  height: 3rem;
+  width: 100%;
+  list-style: none;
+  font-size: 20px;
+  color: honeydew;
+  cursor: pointer;
+}
+
+#dash-nav ul li:active {
+  background-color: #faa500;
+}
+
+#adm {
+  background-color: rgb(36, 35, 35);
+  height: 15rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: white;
+}

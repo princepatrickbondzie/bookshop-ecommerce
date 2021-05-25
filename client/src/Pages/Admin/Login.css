@@ -1,0 +1,21 @@
+#admin-form {
+  height: 40vh;
+  width: 30vw;
+  background-color: white;
+  box-shadow: 3px 3px 10px 2px black;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  display: block;
+  padding: 20px;
+}
+
+#admin {
+  width: 90%;
+  border: none;
+  border-bottom: 2px solid rgba(163, 160, 160, 0.795);
+  outline: none;
+  /* border-radius: 10px; */
+  margin: 0 auto;
+  height: 3rem;
+}

@@ -1,0 +1,81 @@
+.main-about {
+    width: 100%;
+}
+
+.vision {
+    margin: 0 auto;
+    height: 60vh;
+    width: 90%;
+    margin-bottom: 3rem;
+}
+
+#shelf {
+    height: 100%;
+    width: 100%;
+}
+
+.our-story {
+    margin: 0 auto;
+    height: 55vh;
+    width: 85%;
+}
+
+.our-story p {
+    margin-top: 2rem;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.about-one {
+    margin: 0 auto;
+    height: 55vh;
+    width: 90%;
+    background-color: #333333;
+    /* align-items: center; */
+    padding-top: 2%;
+    margin-bottom: 3rem;
+}
+
+.about-one h2, .our-story h2 {
+    color: #faa500;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+.services {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    /* grid-template-columns: ; */
+}
+
+.width {
+    width: 20%;
+}
+
+.service-icon {
+    color: white;
+    text-align: center;
+}
+
+.service-text {
+    margin-top: 2rem;
+    color: white;
+}
+
+
+
+#abt-nav {
+    padding-top: 3rem;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    height: 5rem;
+    /* background-color: #faa500; */
+}
+
+hr {
+    width: 70%;
+    margin: 0 auto;
+}

@@ -1,0 +1,107 @@
+.df {
+  display: flex;
+}
+.header {
+  height: 5rem;
+  display: grid;
+  grid-template-columns: 20% 45%;
+  padding-top: 20px;
+}
+
+.header h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.list {
+  padding-top: 10px;
+}
+
+.header,
+.list ul {
+  justify-content: space-evenly;
+}
+
+.list ul {
+  list-style: none;
+}
+
+.list ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(75, 73, 73);
+  font-size: 1.2rem;
+}
+
+.list ul li a:active {
+  border-bottom: 2px solid #faa500;
+}
+
+.nav-two {
+  height: 4rem;
+  padding: 0 0 0 10rem;
+  background-color: white;
+  box-shadow: 1px 1px 3px 0px rgb(189, 189, 189);
+}
+.fm {
+  height: 70%;
+  width: 65%;
+  background-color: white;
+  border: 1.5px solid rgb(75, 73, 73);
+  border-radius: 3rem;
+  padding-left: 20px;
+  margin: 10px 0 0 0;
+}
+
+#search {
+  width: 93%;
+  height: 100%;
+  outline: none;
+  border-style: none;
+  border-radius: 3rem;
+}
+
+#btn {
+  margin: 0;
+  height: 100%;
+  width: 5%;
+  background: none;
+  outline: none;
+  border-style: none;
+  border-radius: 3rem;
+}
+
+.add {
+  padding: 0.8rem 0 0 2rem;
+  width: 20%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* justify-content: space-evenly; */
+}
+
+.wish {
+  flex-direction: column;
+  color: black;
+}
+
+.icon {
+  padding-left: 13px;
+   color: black;
+}
+
+.cart {
+  color: black;
+  padding-left: 20px;
+}
+
+.cart-txt {
+  flex-direction: column;
+}
+
+.tt {
+  padding-top: 3px;
+}
+#txt {
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(75, 73, 73);
+}
